@@ -11,8 +11,8 @@ class PSM_POBox_Labels
 
   public function overrideFields($fields)
   {
-    $fields['address_1']['label'] = 'Address 1 (no PO Boxes allowed)';
-    $fields['address_2']['label'] = 'Address 2 (no PO Boxes allowed)';
+    $fields['address_1']['label'] = 'Address 1 (no PO Boxes - FedEx cannot deliver)';
+    $fields['address_2']['label'] = 'Address 2 (no PO Boxes - FedEx cannot deliver)';
 
     return $fields;
   }

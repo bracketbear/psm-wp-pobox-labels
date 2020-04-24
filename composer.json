@@ -1,6 +1,7 @@
 {
     "name": "bracketbear/psm-wp-pobox-labels",
     "type": "wordpress-plugin",
+    "version": "1.1.1",
     "authors": [{
         "name": "Harrison Callahan",
         "email": "harrison@harrisoncallahan.com"

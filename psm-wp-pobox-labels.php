@@ -7,7 +7,7 @@
  * Author Name: Harrison Callahan
  * Author URI:  https://harrisoncallahan.com
  * 
- * Version 1.0.0
+ * Version 1.1.0
  */
 
 if(!defined('ABSPATH')) die ('No direct access allowed');
@@ -18,6 +18,3 @@ require_once "$psm_pobox_plugin_path/src/class-psm-pobox-labels.php";
 
 $psm_pobox_plugin = new PSM_POBox_Labels;
 $psm_pobox_plugin->init();
-
-
-?>
